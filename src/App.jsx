@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import MyPage from "./components/MyPage";
+import UserList from "./components/UserList";
 
 function App() {
   return (
     <div className="App">
       <MyPage />
+      <UserList users={["Tom", "Jane", "Mike"]} />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
